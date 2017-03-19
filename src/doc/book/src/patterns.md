@@ -23,7 +23,7 @@ match x {
 
 This prints `one`.
 
-It's possible to create a binding for the value in the any case:
+A _newly introduced variable binding_ would match anything (the `y` below), and the matched value (`x` in this case) will also be bound to that _variable binding_, this is why we have `y` printed as `1` in the following example:
 
 ```rust
 let x = 1;
